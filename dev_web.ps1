@@ -19,6 +19,7 @@ Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\AppModelU
 
 #--- Tools ---
 choco install -y vscode
+RefreshEnv 
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-edge
 
